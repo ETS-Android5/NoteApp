@@ -39,7 +39,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="40dp"/>
     <Button
-        android:id="@+id/logout"
+        android:id="@+id/btnlogout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintWidth_percent=".6"

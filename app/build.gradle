@@ -40,9 +40,9 @@ dependencies {
     //Google Authentication
     implementation 'com.google.android.gms:play-services-auth:20.1.0'
     //Facebook Authentication
-    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+//    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
      //Facebook-login
-    implementation platform('com.google.firebase:firebase-bom:29.3.0')
+//    implementation platform('com.google.firebase:firebase-bom:29.3.0')
 
     implementation 'com.google.firebase:firebase-auth'
 

@@ -15,13 +15,14 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
 
-public class
-HomeActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
     TextView name, email;
     Button logout;
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
+    FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +30,8 @@ HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         name = findViewById(R.id.name);
         email = findViewById(R.id.email);
-        logout=findViewById(R.id.logout);
-
+        logout = findViewById(R.id.btnlogout);
+        mAuth = FirebaseAuth.getInstance();
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
                 .build();
@@ -44,24 +45,29 @@ HomeActivity extends AppCompatActivity {
             logout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    SignOut();
+                    SignOuts();
+                    //mAuth.signOut();
                 }
             });
-
+        }else{
+            logout.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    mAuth.signOut();
+                    finish();
+                    startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                }
+            });
         }
-
-
     }
-
-    private void SignOut() {
+    private void SignOuts() {
         gsc.signOut().addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 finish();
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(HomeActivity.this,MainActivity.class));
             }
         });
     }
-
 
 }

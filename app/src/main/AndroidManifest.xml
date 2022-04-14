@@ -11,12 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AllNotes">
-        <activity
-            android:name=".FacebookActivity"
+       <activity
+           android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".ForgotPassword"
             android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".DrawActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

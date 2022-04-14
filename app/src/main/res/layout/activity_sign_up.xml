@@ -5,72 +5,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".SignUp">
 
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/gotoforgotpassword"
-        android:layout_centerHorizontal="true"
-        android:visibility="invisible"
-        android:id="@+id/progressbarofmainactivity"
-        android:layout_marginTop="10dp">
-
-    </ProgressBar>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/centerline"
+        android:id="@+id/centerline2"
         android:layout_centerInParent="true">
 
     </RelativeLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_above="@id/centerline"
+        android:layout_above="@id/centerline2"
         android:layout_marginBottom="150dp"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chào Mừng Bạn !"
+            android:text="Người Dùng Mới"
             android:textColor="#06FFB0"
             android:textSize="42sp"
             android:textStyle="bold">
+
         </TextView>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Đăng nhập để tiếp tục"
-            android:textSize="23sp"
-            android:textColor="#FFEA36">
+            android:text="Hân hạnh được gặp bạn !"
+            android:textColor="#FFEA36"
+            android:textSize="23sp">
 
         </TextView>
+
     </LinearLayout>
+
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/centerline"
+        android:layout_above="@+id/centerline2"
         android:layout_marginBottom="10dp"
         android:id="@+id/email"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         >
+
         <EditText
+            android:id="@+id/signupemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/loginemail"
-            android:hint="Email:"
+            android:hint="Email"
             android:inputType="textEmailAddress">
+
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/centerline"
+        android:layout_below="@+id/centerline2"
         android:layout_marginTop="10dp"
         android:id="@+id/password"
         android:layout_marginRight="30dp"
@@ -79,17 +78,17 @@
         >
 
         <EditText
-            android:id="@+id/loginpassword"
+            android:id="@+id/signuppassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mật khẩu:">
+            android:hint="Mật khẩu">
 
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
 
     <RelativeLayout
-        android:id="@+id/btnLogin"
+        android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/password"
@@ -103,78 +102,26 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginStart="8dp"
-            android:text="Đăng Nhập"
+            android:text="Đăng Ký"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"></TextView>
 
     </RelativeLayout>
 
+
     <TextView
-        android:id="@+id/gotoforgotpassword"
+        android:id="@+id/gotologin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnLogin"
+        android:layout_below="@id/signup"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
-        android:text="Quên Mật Khẩu ?"
+        android:text="Bạn muốn đăng nhập ?"
         android:textAlignment="center"
         android:textColor="@color/white"></TextView>
 
-    <LinearLayout
-        android:id="@+id/socialicons"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="112dp"
-        android:gravity="center">
-        <ImageView
-            android:id="@+id/fab_google"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/google" />
 
-        <ImageView
-            android:id="@+id/fab_facebook"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/fab_facebook" />
-
-        <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/twitter" />
-    </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/gotosignup"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/button_bg">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_marginStart="8dp"
-            android:text="Người mới? Đăng ký ngay!"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold"></TextView>
-    </RelativeLayout>
 </RelativeLayout>
