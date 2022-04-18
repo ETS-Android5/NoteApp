@@ -55,7 +55,6 @@ public class ForgotPassword extends AppCompatActivity {
                 else
                 {
                     //we have to send password recover email
-
                     firebaseAuth.sendPasswordResetEmail(mail).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {

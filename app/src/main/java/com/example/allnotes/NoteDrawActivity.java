@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ContentMain extends AppCompatActivity {
+public class NoteDrawActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content_main);
+        setContentView(R.layout.activity_note_draw);
     }
 
-    public void ClickDraw(View view) {
-        Intent intent = new Intent(this,NoteDrawActivity.class);
+    public void addNewDraw(View view) {
+        Intent intent = new Intent(this,DrawActivity.class);
         startActivity(intent);
     }
 }

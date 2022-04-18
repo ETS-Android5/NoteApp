@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/purple_200"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity"
+    tools:context=".ContentMain"
     tools:openDrawer="start">
 
     <com.google.android.material.navigation.NavigationView
@@ -166,6 +166,7 @@
 
             <LinearLayout
                 android:id="@+id/draw"
+                android:onClick="ClickDraw"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="32dp"

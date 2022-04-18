@@ -3,10 +3,10 @@
     <string name="facebook_app_id">1234</string>
     <string name="fb_login_protocol_scheme">fb1234</string>
     <string name="facebook_client_token">56789</string>
-    <string name = "hello">HELLO</string>
-    <string name= "user_name">Your name</string>
-    <string name = "nav_drawer_open"> Open navigation drawer</string>
-    <string name = "nav_drawer_close">Close navigation drawer</string>
+    <string name="hello">HELLO</string>
+    <string name="user_name">Your name</string>
+    <string name="nav_drawer_open"> Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
     <string name="your_note">Your notes</string>
     <string name="title">Text</string>
     <string name="description">Mô tả</string>
