@@ -5,34 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CreateTextNoteActivity">
-<androidx.appcompat.widget.Toolbar
-    android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
-    android:id="@+id/toolBarCreateTextNote"
-    android:background="@color/white"
-    >
-<EditText
-    android:id="@+id/createTitleText"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingTop="12dp"
-    android:textSize="20sp"
-    android:textColor="@color/black"
-    android:hint="Title"
-    />
-</androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarCreateTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/createTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Title"
+            android:paddingTop="12dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/iv_mic"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/toolBarCreateTextNote"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_baseline_mic" />
 
     <EditText
         android:id="@+id/creatTextContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/toolBarCreateTextNote"
+        android:layout_below="@+id/iv_mic"
+        android:layout_centerInParent="true"
         android:background="#faf7f7"
         android:gravity="top|left"
         android:hint="Nội dung ghi chú"
         android:padding="15dp"
         android:textColor="@color/black"
         android:textSize="15sp" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

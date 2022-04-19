@@ -30,9 +30,6 @@
             android:name=".NoteTextActivity"
             android:exported="false" />
         <activity
-            android:name=".NoteDrawActivity"
-            android:exported="false" />
-        <activity
             android:name=".ContentMain"
             android:exported="true" />
 
