@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         if(firebaseUser!=null)
         {
             finish();
-            startActivity(new Intent(MainActivity.this,HomeActivity.class));
+            startActivity(new Intent(MainActivity.this,ContentMain.class));
         }
 
         mgotosignup.setOnClickListener(new View.OnClickListener() {
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     Toast.makeText(getApplicationContext(), "Đã đăng nhập!",Toast.LENGTH_SHORT).show();
                     finish();
-                    startActivity(new Intent(MainActivity.this,HomeActivity.class));
+                    startActivity(new Intent(MainActivity.this,ContentMain.class));
                 }
                 else
                 {
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 task.getResult(ApiException.class);
             finish();
-            startActivity(new Intent(MainActivity.this,HomeActivity.class) );
+            startActivity(new Intent(MainActivity.this,ContentMain.class) );
             }catch (ApiException e){
                 Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
             }

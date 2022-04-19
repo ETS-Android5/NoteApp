@@ -3,6 +3,9 @@
     package="com.example.allnotes">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,20 +15,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AllNotes">
         <activity
+            android:name=".NoteDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity
+            android:name=".editTextNoteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity
+            android:name=".CreateTextNoteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".NoteTextActivity"
+            android:exported="false" />
+        <activity
             android:name=".NoteDrawActivity"
             android:exported="false" />
         <activity
             android:name=".ContentMain"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
         <activity
             android:name=".ForgotPassword"
             android:exported="false" />
@@ -37,7 +47,13 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" /> <!-- <activity -->
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <activity -->
         <!-- android:name=".MainActivity" -->
         <!-- android:exported="true"> -->
         <!-- <intent-filter> -->
