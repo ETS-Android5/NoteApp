@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".CreateTextNoteActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -16,9 +17,10 @@
             android:id="@+id/createTitleText"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Title"
+            android:hint="Thêm tiêu đề"
             android:paddingTop="12dp"
             android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:textSize="20sp" />
     </androidx.appcompat.widget.Toolbar>
 
@@ -42,9 +44,10 @@
         android:layout_centerInParent="true"
         android:background="#faf7f7"
         android:gravity="top|left"
-        android:hint="Nội dung ghi chú"
+        android:hint="Thêm nội dung"
         android:padding="15dp"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="15sp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

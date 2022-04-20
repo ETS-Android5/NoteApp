@@ -1,9 +1,11 @@
 package com.example.allnotes;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 
@@ -35,5 +37,19 @@ public class NoteDetailsActivity extends AppCompatActivity {
         contentOfNoteDetail.setText(intent.getStringExtra("content"));
         titleOfNoteDetail.setText(intent.getStringExtra("title"));
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        startActivity(new Intent(NoteDetailsActivity.this, NoteTextActivity.class));
     }
 }

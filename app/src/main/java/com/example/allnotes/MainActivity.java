@@ -26,9 +26,9 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     // Google
-        ImageView google_img ;
-        GoogleSignInOptions gso;
-        GoogleSignInClient gsc;
+//        ImageView google_img ;
+//        GoogleSignInOptions gso;
+//        GoogleSignInClient gsc;
         // Login email and password
         private EditText mloginemail,mloginpassword;
         private RelativeLayout mlogin,mgotosignup;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        google_img = findViewById(R.id.fab_google);
+//        google_img = findViewById(R.id.fab_google);
         //Login
         getSupportActionBar().hide();
 
@@ -48,16 +48,16 @@ public class MainActivity extends AppCompatActivity {
         mlogin=findViewById(R.id.btnLogin);
         mgotoforgotpassword=findViewById(R.id.gotoforgotpassword);
         mgotosignup=findViewById(R.id.gotosignup);
-      gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-             .requestEmail()
-             .build();
-        gsc = GoogleSignIn.getClient(this,gso);
-        google_img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                SignIn();
-            }
-        });
+//      gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//             .requestEmail()
+//             .build();
+//        gsc = GoogleSignIn.getClient(this,gso);
+//        google_img.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                SignIn();
+//            }
+//        });
         //firebase email+password
        firebaseAuth= FirebaseAuth.getInstance();
         FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
@@ -128,24 +128,23 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
-   private void SignIn(){
-        Intent intent = gsc.getSignInIntent();
-        startActivityForResult(intent,100);
-    }
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data){
-        super.onActivityResult(requestCode,resultCode,data);
-        if (requestCode==100){
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            try {
-                task.getResult(ApiException.class);
-            finish();
-            startActivity(new Intent(MainActivity.this,ContentMain.class) );
-            }catch (ApiException e){
-                Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
-            }
-        }
+//   private void SignIn(){
+//        Intent intent = gsc.getSignInIntent();
+//        startActivityForResult(intent,100);
+//    }
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data){
+//        super.onActivityResult(requestCode,resultCode,data);
+//        if (requestCode==100){
+//            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+//            try {
+//                task.getResult(ApiException.class);
+//            finish();
+//            startActivity(new Intent(MainActivity.this,ContentMain.class) );
+//            }catch (ApiException e){
+//                Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
+//            }
+//        }
     }
 
 
-}

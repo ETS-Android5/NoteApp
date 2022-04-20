@@ -41,7 +41,7 @@ import java.util.Objects;
 public class DrawActivity extends AppCompatActivity {
     public static Path path = new Path();
     public static Paint paint_brush = new Paint();
-    private Button pencil,eraser,redColor,yellowColor,greenColor,blueColor,btnSave;
+    private Button pencil, eraser, redColor, yellowColor, greenColor, blueColor, btnSave;
     private int STORAGE_PERMISSION_CODE = 1;
     private ConstraintLayout paintView;
     Bitmap bitmap;
@@ -90,92 +90,77 @@ public class DrawActivity extends AppCompatActivity {
             currentColor(paint_brush.getColor());
         });
 
-     btnSave.setOnClickListener(view -> {
-        saveImage();
-    });
- }
+        btnSave.setOnClickListener(view -> saveImage());
+    }
 
     private void saveImage() {
         btnSave.setOnClickListener(view -> {
             if (ContextCompat.checkSelfPermission(this,
-                    Manifest.permission.READ_EXTERNAL_STORAGE)== PackageManager.PERMISSION_GRANTED){
-                Bitmap bitmap = Bitmap.createBitmap(paintView.getWidth(),paintView.getHeight(),Bitmap.Config.ARGB_8888);
+                    Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                Bitmap bitmap = Bitmap.createBitmap(paintView.getWidth(), paintView.getHeight(), Bitmap.Config.ARGB_8888);
                 Canvas canvas = new Canvas(bitmap);
                 paintView.draw(canvas);
                 OutputStream ops;
-                if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.Q){
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                     ContentResolver resolver = getContentResolver();
                     ContentValues values = new ContentValues();
-                    values.put(MediaStore.MediaColumns.DISPLAY_NAME,System.currentTimeMillis() + ".png");
-                    values.put(MediaStore.MediaColumns.MIME_TYPE,"image/png");
+                    values.put(MediaStore.MediaColumns.DISPLAY_NAME, System.currentTimeMillis() + ".png");
+                    values.put(MediaStore.MediaColumns.MIME_TYPE, "image/png");
                     values.put(MediaStore.MediaColumns.RELATIVE_PATH, Environment.DIRECTORY_PICTURES);
-                    Uri imageUri = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI,values);
+                    Uri imageUri = resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
                     Toast.makeText(this, "Image saved!", Toast.LENGTH_SHORT).show();
                     try {
                         ops = resolver.openOutputStream(Objects.requireNonNull(imageUri));
                         {
-                            bitmap.compress(Bitmap.CompressFormat.PNG,100,ops);
+                            bitmap.compress(Bitmap.CompressFormat.PNG, 100, ops);
                             ops.flush();
                             ops.close();
                         }
-                    }catch (FileNotFoundException e){
-                        e.printStackTrace();
-                    }catch (IOException e){
+                    } catch (IOException e) {
                         e.printStackTrace();
                     }
-                }
-                else {
-                    FileOutputStream outputStream = null;
+                } else {
+                    FileOutputStream outputStream;
                     File sdCard = Environment.getExternalStorageDirectory();
                     File directory = new File(sdCard.getAbsoluteFile() + "/paint");
                     directory.mkdir();
-                    String filename = String.format("%d.png",System.currentTimeMillis());
-                    File outFile = new File(directory,filename);
+                    String filename = String.format("%d.png", System.currentTimeMillis());
+                    File outFile = new File(directory, filename);
                     Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show();
                     try {
                         outputStream = new FileOutputStream(outFile);
-                        bitmap.compress(Bitmap.CompressFormat.PNG,100,outputStream);
+                        bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
                         outputStream.flush();
                         outputStream.close();
                         Intent intent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
                         intent.setData(Uri.fromFile(outFile));
                         sendBroadcast(intent);
 
-                    }catch (Exception e){
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
 
-            }else {
+            } else {
                 requestStoragePermission();
             }
         });
     }
 
     private void requestStoragePermission() {
-        if (ActivityCompat.shouldShowRequestPermissionRationale((Activity)this,Manifest.permission.READ_EXTERNAL_STORAGE)){
+        if (ActivityCompat.shouldShowRequestPermissionRationale((Activity) this, Manifest.permission.READ_EXTERNAL_STORAGE)) {
             new AlertDialog.Builder(this)
                     .setTitle("Permission needed")
                     .setMessage("this permission is needed")
-                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            ActivityCompat.requestPermissions((DrawActivity.this), new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},STORAGE_PERMISSION_CODE);
-                        }
-                    }).setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    dialogInterface.dismiss();
-                }
-            }).create().show();
-        }
-        else {
+                    .setPositiveButton("OK", (dialogInterface, i) -> ActivityCompat.requestPermissions((DrawActivity.this), new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE)).setNegativeButton("Cancel", (dialogInterface, i) -> dialogInterface.dismiss()).create().show();
+        } else {
             ActivityCompat.requestPermissions((DrawActivity.this), new String[]
-                    {Manifest.permission.READ_EXTERNAL_STORAGE},STORAGE_PERMISSION_CODE);
+                    {Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
         }
 
     }
-    public void currentColor(int color){
+
+    public void currentColor(int color) {
         current_brush = color;
         path = new Path();
     }

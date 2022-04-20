@@ -106,7 +106,7 @@
             android:text="Đăng Nhập"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
@@ -122,40 +122,40 @@
         android:layout_marginBottom="10dp"
         android:text="Quên Mật Khẩu ?"
         android:textAlignment="center"
-        android:textColor="@color/white"></TextView>
+        android:textColor="@color/white" />
 
-    <LinearLayout
-        android:id="@+id/socialicons"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="112dp"
-        android:gravity="center">
-        <ImageView
-            android:id="@+id/fab_google"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/google" />
+<!--    <LinearLayout-->
+<!--        android:id="@+id/socialicons"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="-1dp"-->
+<!--        android:layout_marginEnd="-1dp"-->
+<!--        android:layout_marginBottom="112dp"-->
+<!--        android:gravity="center">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/fab_google"-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/google" />-->
 
-        <ImageView
-            android:id="@+id/fab_facebook"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/fab_facebook" />
+<!--        <ImageView-->
+<!--            android:id="@+id/fab_facebook"-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/fab_facebook" />-->
 
-        <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/twitter" />
-    </LinearLayout>
+<!--        <ImageView-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/twitter" />-->
+<!--    </LinearLayout>-->
 
     <RelativeLayout
         android:id="@+id/gotosignup"
@@ -175,6 +175,6 @@
             android:text="Người mới? Đăng ký ngay!"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold" />
     </RelativeLayout>
 </RelativeLayout>
