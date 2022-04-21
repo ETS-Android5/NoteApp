@@ -60,4 +60,8 @@ public class ContentMain extends AppCompatActivity {
     public void ImgTextNote(View view) {
         startActivity(new Intent(ContentMain.this,NoteTextActivity.class));
     }
+
+    public void ClickPDFFile(View view) {
+        startActivity(new Intent(ContentMain.this,FileNoteActivity.class));
+    }
 }
