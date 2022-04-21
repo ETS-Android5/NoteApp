@@ -18,4 +18,4 @@
 
 
 ```
-![Logo](https://cdn-icons.flaticon.com/png/512/741/premium/741835.png?token=exp=1650542043~hmac=c233d146f8451bd7ecfa9b7664ae0379)
+![Logo](https://cdn-icons.flaticon.com/png/250/300/premium/741835.png?token=exp=1650542043~hmac=c233d146f8451bd7ecfa9b7664ae0379)
