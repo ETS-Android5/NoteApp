@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+
     tools:context=".MainActivity">
 
     <ProgressBar
@@ -17,37 +17,50 @@
         android:layout_marginTop="10dp">
 
     </ProgressBar>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:src="@drawable/ic_note"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/centerline"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp">
 
     </RelativeLayout>
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_above="@id/centerline"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="120dp"
         android:orientation="vertical">
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chào Mừng Bạn !"
-            android:textColor="#06FFB0"
+            android:text="Welcome!"
+            android:textColor="@color/black"
             android:textSize="42sp"
-            android:textStyle="bold">
-        </TextView>
+            android:textStyle="bold"
+            android:gravity="center"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Đăng nhập để tiếp tục"
+            android:text="Login to continute"
             android:textSize="23sp"
-            android:textColor="#FFEA36">
+            android:textColor="#CC403E3E"
+            android:gravity="center"/>
 
-        </TextView>
+
     </LinearLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -90,12 +103,13 @@
 
     <RelativeLayout
         android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_below="@id/password"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/button_bg">
 
         <TextView
@@ -105,7 +119,7 @@
             android:layout_marginStart="8dp"
             android:text="Đăng Nhập"
             android:textColor="@color/white"
-            android:textSize="16sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
     </RelativeLayout>
@@ -122,7 +136,7 @@
         android:layout_marginBottom="10dp"
         android:text="Quên Mật Khẩu ?"
         android:textAlignment="center"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 
 <!--    <LinearLayout-->
 <!--        android:id="@+id/socialicons"-->
@@ -165,6 +179,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/button_bg">
 
         <TextView
