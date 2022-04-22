@@ -13,8 +13,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/Theme.AllNotes">
+        <activity
+            android:name=".ImageNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadImageActivity"
+            android:exported="false" />
         <activity
             android:name=".CreateFileActivity"
             android:exported="false" />
