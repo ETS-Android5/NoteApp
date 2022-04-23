@@ -31,6 +31,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.imageview.ShapeableImageView;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -41,7 +43,8 @@ import java.util.Objects;
 public class DrawActivity extends AppCompatActivity {
     public static Path path = new Path();
     public static Paint paint_brush = new Paint();
-    private Button pencil, eraser, redColor, yellowColor, greenColor, blueColor, btnSave;
+    private Button pencil, eraser,btnSave;
+    private ShapeableImageView redColor, yellowColor, greenColor, blueColor;
     private int STORAGE_PERMISSION_CODE = 1;
     private ConstraintLayout paintView;
     Bitmap bitmap;
@@ -50,7 +53,7 @@ public class DrawActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_draw);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
         pencil = findViewById(R.id.pencil);
         eraser = findViewById(R.id.eraser);
         redColor = findViewById(R.id.redColor);

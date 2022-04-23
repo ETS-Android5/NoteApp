@@ -55,7 +55,7 @@ public class NoteTextActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         firestore = FirebaseFirestore.getInstance();
-        getSupportActionBar().setTitle("All Notes");
+//        getSupportActionBar().setTitle("All Notes");
         mcreatenotefab.setOnClickListener(view -> {
          startActivity(new Intent(NoteTextActivity.this,CreateTextNoteActivity.class));
 

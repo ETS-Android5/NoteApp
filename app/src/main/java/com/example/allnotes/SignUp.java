@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -20,7 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class SignUp extends AppCompatActivity {
 
     private EditText msignupemail, msignuppassword;
-    private RelativeLayout msignup;
+    private Button msignup;
     private TextView mgotologin;
 
     private FirebaseAuth firebaseAuth;
@@ -36,7 +37,7 @@ public class SignUp extends AppCompatActivity {
         msignupemail = findViewById(R.id.signupemail);
         msignuppassword = findViewById(R.id.signuppassword);
         msignup = findViewById(R.id.signup);
-        mgotologin = findViewById(R.id.gotologin);
+        mgotologin = findViewById(R.id.signup);
 
         firebaseAuth = FirebaseAuth.getInstance();
 

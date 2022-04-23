@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -31,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 //        GoogleSignInClient gsc;
         // Login email and password
         private EditText mloginemail,mloginpassword;
-        private RelativeLayout mlogin,mgotosignup;
-        private TextView mgotoforgotpassword;
+        private Button mlogin;
+        private TextView mgotoforgotpassword,mgotosignup;
         private FirebaseAuth firebaseAuth;
 
     @Override
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        google_img = findViewById(R.id.fab_google);
         //Login
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         mloginemail=findViewById(R.id.loginemail);
         mloginpassword=findViewById(R.id.loginpassword);

@@ -35,69 +35,89 @@
 
         <Button
             android:id="@+id/pencil"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_margin="8dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
             android:background="@drawable/pencil"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/eraser"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_margin="8dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
             android:background="@drawable/eraser"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/pencil" />
+            app:layout_constraintStart_toEndOf="@+id/pencil"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/redColor"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_margin="8dp"
-            android:background="@drawable/button_design"
-            android:backgroundTint="#ff00"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/eraser" />
-        <Button
-            android:id="@+id/yellowColor"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_margin="8dp"
-            android:background="@drawable/button_design"
-            android:backgroundTint="#FFC107"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/redColor" />
-        <Button
-            android:id="@+id/greenColor"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_margin="8dp"
-            android:background="@drawable/button_design"
-            android:backgroundTint="#4CAF50"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/yellowColor" />
-        <Button
-            android:id="@+id/blueColor"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_margin="8dp"
-            android:background="@drawable/button_design"
-            android:backgroundTint="#3F51B5"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/greenColor" />
+
         <Button
             android:id="@+id/btnSaveDraw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#404B8A"
             android:text="save"
             android:textColor="@color/white"
-            android:backgroundTint="#404B8A"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/blueColor" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/btnSaveDraw"
+            app:layout_constraintStart_toEndOf="@+id/eraser"
+            tools:layout_editor_absoluteY="9dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/redColor"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/button_design"
+                    android:backgroundTint="#ff00"
+                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/yellowColor"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/button_design"
+                    android:backgroundTint="#FFC107"
+                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/greenColor"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/button_design"
+                    android:backgroundTint="#4CAF50"
+                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/blueColor"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/button_design"
+                    android:backgroundTint="#3F51B5"
+                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>

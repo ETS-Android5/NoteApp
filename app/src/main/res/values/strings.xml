@@ -12,5 +12,6 @@
     <string name="description">Mô tả</string>
     <string name="Google">Đăng nhập với Google</string>
     <string name="Log_up">Tạo tài khoản mới</string>
+    <string name="forgot">Forgot password?</string>
 
 </resources>

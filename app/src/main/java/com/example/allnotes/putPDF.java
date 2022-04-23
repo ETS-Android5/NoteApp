@@ -4,7 +4,6 @@ public class putPDF {
     String name;
     String url;
     public putPDF(){
-
     }
     public putPDF(String name, String url) {
         this.name = name;
