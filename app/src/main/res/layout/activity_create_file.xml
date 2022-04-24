@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/purple_200"
     tools:context=".CreateFileActivity">
-
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -38,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:backgroundTint="@color/purple_700"
-        android:text="choose file"
+        android:text="Choose file"
 
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
         android:backgroundTint="@color/purple_700"
-        android:text="upload file"
+        android:text="Upload file"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/btnChooseFile"
         app:layout_constraintEnd_toEndOf="parent"

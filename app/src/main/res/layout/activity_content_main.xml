@@ -42,54 +42,56 @@
                 app:layout_constraintTop_toTopOf="parent"
                  />
 
-            <TextView
-                android:id="@+id/hello"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="32dp"
-                android:fontFamily="@font/montserrat"
-                android:text="@string/hello"
-                android:textSize="28sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/avatar" />
+<!--            <TextView-->
+<!--                android:id="@+id/hello"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="36dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:fontFamily="@font/montserrat"-->
+<!--                android:text="@string/hello"-->
+<!--                android:textSize="28sp"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/avatar" />-->
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/avatar"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="32dp"
-                android:padding="4dp"
-                android:src="@drawable/ava1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar"
-                app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/avatar"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:padding="4dp"-->
+<!--                android:src="@drawable/ava1"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/toolbar"-->
+<!--                app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />-->
 
-            <TextView
-                android:id="@+id/hello_username"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
-                android:text="@string/user_name"
-                android:textColor="@color/yellow"
-                android:textSize="32sp"
-                app:layout_constraintStart_toStartOf="@+id/hello"
-                app:layout_constraintTop_toBottomOf="@+id/hello" />
+<!--            <TextView-->
+<!--                android:id="@+id/hello_username"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/montserrat"-->
+<!--                android:text="@string/user_name"-->
+<!--                android:textColor="@color/yellow"-->
+<!--                android:textSize="32sp"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/hello"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/hello" />-->
 
             <LinearLayout
+
                 android:id="@+id/text"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="60dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="160dp"
                 android:background="@drawable/bgr_button_blue"
                 android:onClick="ImgTextNote"
                 android:orientation="vertical"
                 android:padding="8dp"
+
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/hello_username"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
                 app:layout_constraintVertical_bias="0.00999999">
 
                 <ImageView
@@ -140,7 +142,7 @@
                     android:text="Image"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="20sp" />
+                    android:textSize="19sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -171,7 +173,7 @@
                     android:text="Files"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="19sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -204,12 +206,8 @@
                     android:text="Draw"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="19sp" />
             </LinearLayout>
-
-
-
-
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
