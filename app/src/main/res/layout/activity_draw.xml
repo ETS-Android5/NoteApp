@@ -1,123 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/draw_layout_draw"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:fitsSystemWindows="true"
+tools:context=".DrawActivity"
+tools:openDrawer="start">
+
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/nav_view_draw"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".DrawActivity">
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout1"
-        android:layout_width="380dp"
-        android:layout_height="660dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@id/constraintLayout">
-        <include layout="@layout/view_display"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+    android:layout_gravity="start"
+    app:headerLayout="@layout/header"
+    app:menu="@menu/menu_main" >
 
-            />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.navigation.NavigationView>
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="380dp"
-        android:layout_height="82dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/tools_design"
-        android:padding="10dp"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <Button
-            android:id="@+id/pencil"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="8dp"
-            android:background="@drawable/pencil"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/eraser"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="8dp"
-            android:background="@drawable/eraser"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/pencil"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
 
 
-        <Button
-            android:id="@+id/btnSaveDraw"
-            android:layout_width="wrap_content"
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_draw"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:backgroundTint="#404B8A"
-            android:text="save"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/purple_700"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:collapseIcon="@drawable/ic_bg_shape"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_draw"
+            app:layout_constraintBottom_toTopOf="@id/constraintLayout">
+            <include layout="@layout/view_display"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
 
-        <HorizontalScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="4dp"
-            android:layout_marginRight="4dp"
-            app:layout_constraintEnd_toStartOf="@+id/btnSaveDraw"
-            app:layout_constraintStart_toEndOf="@+id/eraser"
-            tools:layout_editor_absoluteY="9dp">
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/tools_design"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout1">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/pencil"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/pencil"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/eraser"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/eraser"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/pencil"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/btnSaveDraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#404B8A"
+                android:text="save"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/btnSaveDraw"
+                app:layout_constraintStart_toEndOf="@+id/eraser"
+                tools:layout_editor_absoluteY="9dp">
 
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/redColor"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:background="@drawable/button_design"
-                    android:backgroundTint="#ff00"
-                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/yellowColor"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="8dp"
-                    android:background="@drawable/button_design"
-                    android:backgroundTint="#FFC107"
-                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/redColor"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/button_design"
+                        android:backgroundTint="#ff00"
+                        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
 
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/greenColor"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="8dp"
-                    android:background="@drawable/button_design"
-                    android:backgroundTint="#4CAF50"
-                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/yellowColor"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/button_design"
+                        android:backgroundTint="#FFC107"
+                        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
 
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/blueColor"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="8dp"
-                    android:background="@drawable/button_design"
-                    android:backgroundTint="#3F51B5"
-                    app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
-            </LinearLayout>
-        </HorizontalScrollView>
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/greenColor"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/button_design"
+                        android:backgroundTint="#4CAF50"
+                        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/blueColor"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/button_design"
+                        android:backgroundTint="#3F51B5"
+                        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
