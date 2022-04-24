@@ -32,12 +32,12 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         msignupemail = findViewById(R.id.signupemail);
         msignuppassword = findViewById(R.id.signuppassword);
         msignup = findViewById(R.id.signup);
-        mgotologin = findViewById(R.id.signup);
+        mgotologin = findViewById(R.id.gotologin);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -58,7 +58,7 @@ public class SignUp extends AppCompatActivity {
                 if (mail.isEmpty() || password.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Điền vào tất cả các miền", Toast.LENGTH_SHORT).show();
                 } else if (password.length() < 7) {
-                    Toast.makeText(getApplicationContext(), "Mật khẩu pahỉ chứa hơn 7 ký tự", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Mật khẩu phải chứa hơn 7 ký tự", Toast.LENGTH_SHORT).show();
                 } else {
                     /// registered the user to firebase
                     firebaseAuth.createUserWithEmailAndPassword(mail, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
