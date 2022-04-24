@@ -1,11 +1,5 @@
 package com.example.allnotes;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
-
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -21,12 +15,14 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -56,10 +52,7 @@ public class NoteTextActivity extends AppCompatActivity {
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         firestore = FirebaseFirestore.getInstance();
 //        getSupportActionBar().setTitle("All Notes");
-        mcreatenotefab.setOnClickListener(view -> {
-         startActivity(new Intent(NoteTextActivity.this,CreateTextNoteActivity.class));
-
-        });
+        mcreatenotefab.setOnClickListener(view -> startActivity(new Intent(NoteTextActivity.this,CreateTextNoteActivity.class)));
         Query query = firestore.collection("notes").document(firebaseUser.getUid()).collection("myNotes").orderBy("title",Query.Direction.ASCENDING);
         FirestoreRecyclerOptions<TextModal> alluserNotes = new FirestoreRecyclerOptions.Builder<TextModal>().setQuery(query,TextModal.class).build();
         textNodeAdapter = new FirestoreRecyclerAdapter<TextModal, NoteViewHolder>(alluserNotes) {
@@ -88,35 +81,19 @@ public class NoteTextActivity extends AppCompatActivity {
                 popupbutton.setOnClickListener(view -> {
                     PopupMenu popupMenu = new PopupMenu(view.getContext(),view);
                     popupMenu.setGravity(Gravity.END);
-                    popupMenu.getMenu().add("Edit").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
-                        @Override
-                        public boolean onMenuItemClick(MenuItem menuItem) {
-                            Intent intent = new Intent(view.getContext(),editTextNoteActivity.class);
-                            intent.putExtra("title",textModal.getTitle());
-                            intent.putExtra("content",textModal.getContent());
-                            intent.putExtra("noteId",docId);
-                            view.getContext().startActivity(intent);
-                            return false;
-                        }
+                    popupMenu.getMenu().add("Edit").setOnMenuItemClickListener(menuItem -> {
+                        Intent intent = new Intent(view.getContext(),editTextNoteActivity.class);
+                        intent.putExtra("title",textModal.getTitle());
+                        intent.putExtra("content",textModal.getContent());
+                        intent.putExtra("noteId",docId);
+                        view.getContext().startActivity(intent);
+                        return false;
                     });
-                    popupMenu.getMenu().add("Delete").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
-                        @Override
-                        public boolean onMenuItemClick(MenuItem menuItem) {
-                           // Toast.makeText(NoteTextActivity.this, "Ghi chú đã xóa thành công", Toast.LENGTH_SHORT).show();
-                            DocumentReference documentReference = firestore.collection("notes").document(firebaseUser.getUid()).collection("myNotes").document(docId);
-                            documentReference.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
-                                @Override
-                                public void onSuccess(Void unused) {
-                                    Toast.makeText(NoteTextActivity.this, "Ghi chú đã bị xóa", Toast.LENGTH_SHORT).show();
-                                }
-                            }).addOnFailureListener(new OnFailureListener() {
-                                @Override
-                                public void onFailure(@NonNull Exception e) {
-                                    Toast.makeText(NoteTextActivity.this, "Xóa ghi chú không thành công", Toast.LENGTH_SHORT).show();
-                                }
-                            });
-                            return false;
-                        }
+                    popupMenu.getMenu().add("Delete").setOnMenuItemClickListener(menuItem -> {
+                       // Toast.makeText(NoteTextActivity.this, "Ghi chú đã xóa thành công", Toast.LENGTH_SHORT).show();
+                        DocumentReference documentReference = firestore.collection("notes").document(firebaseUser.getUid()).collection("myNotes").document(docId);
+                        documentReference.delete().addOnSuccessListener(unused -> Toast.makeText(NoteTextActivity.this, "Ghi chú đã bị xóa", Toast.LENGTH_SHORT).show()).addOnFailureListener(e -> Toast.makeText(NoteTextActivity.this, "Xóa ghi chú không thành công", Toast.LENGTH_SHORT).show());
+                        return false;
                     });
                     popupMenu.show();
 
@@ -157,16 +134,12 @@ public class NoteTextActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
+//        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         switch (item.getItemId()){
             case R.id.logout:
-
                 mAuth.signOut();
                 finish();
                 startActivity(new Intent(getApplicationContext(),MainActivity.class));
-
-
-
         }
         return super.onOptionsItemSelected(item);
     }

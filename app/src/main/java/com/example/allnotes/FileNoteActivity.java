@@ -11,7 +11,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -24,7 +23,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,40 +49,34 @@ public class FileNoteActivity extends AppCompatActivity {
         retrieveFile();
 
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        listView.setOnItemClickListener((adapterView, view, i, l) -> {
 //                putPDF putPDF = uploadFile.get(i);
 //                Intent intent = new Intent(Intent.ACTION_VIEW);
 //                intent.setType("application/pdf");
 //              intent.setData(Uri.parse(putPDF.getUrl()));
 //              startActivity(intent);
-                AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder(FileNoteActivity.this);
-                myAlertBuilder.setTitle("Thao tác với File");
-                myAlertBuilder.setMessage("Chọn thao tác");
-                myAlertBuilder.setNeutralButton("Open",(dialogInterface, i1) ->{
-                    putPDF putPDF = uploadFile.get(i);
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setType("application/pdf");
-                    intent.setData(Uri.parse(putPDF.getUrl()));
-                    startActivity(intent);
-                });
+            AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder(FileNoteActivity.this);
+            myAlertBuilder.setTitle("Thao tác với File");
+            myAlertBuilder.setMessage("Chọn thao tác");
+            myAlertBuilder.setNeutralButton("Open",(dialogInterface, i1) ->{
+                putPDF putPDF = uploadFile.get(i);
+                Intent intent12 = new Intent(Intent.ACTION_VIEW);
+                intent12.setType("application/pdf");
+                intent12.setData(Uri.parse(putPDF.getUrl()));
+                startActivity(intent12);
+            });
 
-                myAlertBuilder.setPositiveButton("Share",(dialogInterface, i1) -> {
-                    putPDF putPDF = uploadFile.get(i);
-                    Intent intent = new Intent(Intent.ACTION_SEND);
-                    intent.setType("text/plain");
-                    intent.putExtra(Intent.EXTRA_TEXT,putPDF.getUrl());
-                    startActivity(Intent.createChooser(intent,"Share using"));
+            myAlertBuilder.setPositiveButton("Share",(dialogInterface, i1) -> {
+                putPDF putPDF = uploadFile.get(i);
+                Intent intent12 = new Intent(Intent.ACTION_SEND);
+                intent12.setType("text/plain");
+                intent12.putExtra(Intent.EXTRA_TEXT,putPDF.getUrl());
+                startActivity(Intent.createChooser(intent12,"Share using"));
 
-                });
-                myAlertBuilder.setNegativeButton("Delete",(dialogInterface, i1) -> {
-                    deleteFiles(key);
+            });
+            myAlertBuilder.setNegativeButton("Delete",(dialogInterface, i1) -> deleteFiles());
+            myAlertBuilder.show();
 
-                });
-                myAlertBuilder.show();
-
-            }
         });
         btnCreateFile.setOnClickListener(view -> {
             Intent intent1 = new Intent(this,CreateFileActivity.class);
@@ -94,9 +86,8 @@ public class FileNoteActivity extends AppCompatActivity {
     }
 
 
-    private void deleteFiles(String key){
+    private void deleteFiles(){
         FirebaseDatabase.getInstance().getReference("upLoadPDF").getRef().getKey();
-
         databaseReference.removeValue();
         Toast.makeText(this, "File đã bị xóa", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(getApplicationContext(), FileNoteActivity.class));

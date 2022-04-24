@@ -36,9 +36,7 @@ public class ImageNoteActivity extends AppCompatActivity {
         listImage.setLayoutManager(new LinearLayoutManager(this));
         list = new ArrayList<>();
         adapter = new ImageAdapter(this,list);
-        btnCreateImageNote.setOnClickListener(view -> {
-            startActivity(new Intent(ImageNoteActivity.this,UploadImageActivity.class));
-        });
+        btnCreateImageNote.setOnClickListener(view -> startActivity(new Intent(ImageNoteActivity.this,UploadImageActivity.class)));
         showAllImage();
 //        root.addValueEventListener(new ValueEventListener() {
 //            @Override
