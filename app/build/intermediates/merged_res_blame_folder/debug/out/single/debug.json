@@ -1,454 +1,458 @@
 [
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_folder.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\folder.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_create_file.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_create_file.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_brush.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_brush.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_log_out.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_log_out.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_bg.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\button_bg.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_file_note.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_file_note.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_undraw_taking_notes_re_bnaf.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_undraw_taking_notes_re_bnaf.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_note_text.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_note_text.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_brush.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_brush.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\menu\\menu.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_text_note.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\text_note.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_file.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_file.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_design.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\button_design.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_text_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_text_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_essay.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\essay.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_tools_design.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\tools_design.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_header.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\header.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_content_main.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_content_main.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pencil.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\pencil.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_montserrat_subrayada.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\font\\montserrat_subrayada.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ava1.jpg.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ava1.jpg"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icon_pdf.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\icon_pdf.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_homepage.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_homepage.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgr_button_blue.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\bgr_button_blue.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_twitter.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\twitter.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_visual.gif.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\visual.gif"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgot_password.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_give_up_sigh_sticker___give_up_sigh_slip___discover___share_gifs.gif.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\give_up_sigh_sticker___give_up_sigh_slip___discover___share_gifs.gif"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_montserrat_subrayada.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\font\\montserrat_subrayada.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_header.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_image_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_image_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_note.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_note.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_cormorant_sc_light.ttf.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\font\\cormorant_sc_light.ttf"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_image_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_image_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_file_note.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_file_note.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_text_menu.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_text_menu.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_image_menu.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_image_menu.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit_text_bg.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\edit_text_bg.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_gelasio.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\font\\gelasio.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_text_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_text_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_btn.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\round_btn.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_home.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_home.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_home.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_view_display.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\view_display.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgr_edittext.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\bgr_edittext.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_play.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_play.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_image_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_image_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_visual.gif.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\visual.gif"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_updated.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\updated.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fab_facebook.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\fab_facebook.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_image.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\add_image.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_upload_image.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_upload_image.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_file.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_file.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_main.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_file.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_file.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_save.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\icon_save.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_gelasio.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\font\\gelasio.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_home.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_file.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_file.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_file.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_file.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_image_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_image_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_text_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_text_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_github.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\github.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_text_note.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_edit_text_note.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_note_taking_64.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_note_taking_64.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_create_text_note.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_create_text_note.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bg_shape.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_bg_shape.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_note_details.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_note_details.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_view_display.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\view_display.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\xml_provider_paths.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_note_text.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_note_text.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bg_shape.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_bg_shape.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_brush.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_brush.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_github.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\github.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_file.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_file.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_play.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_play.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_login.PNG.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\background_login.PNG"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_updated.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\updated.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_record.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_record.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_tools_design.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\tools_design.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_brush.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_brush.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_play.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_play.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_home.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_content_main.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_content_main.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_create_text_note.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_create_text_note.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_play.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_play.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_file.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_file.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_image_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_image_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_log_out.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_log_out.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_text_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_text_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_stop.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_stop.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_google_48.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_google_48.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_item_image.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\item_image.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_home.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_brush.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_brush.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_upload_image.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_upload_image.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_play.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_play.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_folder.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\folder.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_home.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_home.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_file.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_file.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_play.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_play.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_home.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_home.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_image_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_image_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_more_vert.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_paint_brush_32.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_paint_brush_32.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgr_edittext.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\bgr_edittext.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_brush.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_brush.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_log_out.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_log_out.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_microphone_64.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_microphone_64.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_eraser.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\eraser.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_text_note.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_edit_text_note.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fab_facebook.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\fab_facebook.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\xml_provider_paths.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\xml\\provider_paths.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_note_taking_64.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_note_taking_64.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_text_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_text_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_file.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_file.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_montserrat.ttf.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\font\\montserrat.ttf"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_log_out.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_log_out.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_give_up_sigh_sticker___give_up_sigh_slip___discover___share_gifs.gif.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\give_up_sigh_sticker___give_up_sigh_slip___discover___share_gifs.gif"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\google.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_note_details.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_note_details.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_paint_brush_32.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_paint_brush_32.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_home.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_montserrat.ttf.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\font\\montserrat.ttf"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\google.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_mic.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_baseline_mic.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\background.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_text_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_text_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_eraser.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\eraser.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_stop.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_stop.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_brush.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_brush.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_camera_64.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_camera_64.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_play.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_play.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_play.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_play.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_log_out.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_log_out.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_image_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_image_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_log_out.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_log_out.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_image_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_image_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_undraw_taking_notes_re_bnaf.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_undraw_taking_notes_re_bnaf.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_play.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_play.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_draw.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_draw.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_image_note.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_image_note.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_main.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_note.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_note.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_twitter.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\twitter.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icon_pdf.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\icon_pdf.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_camera_64.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_camera_64.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\edit.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgr_button_blue.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\bgr_button_blue.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_brush.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_brush.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_brush.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_brush.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_btn.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\round_btn.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_google_48.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_google_48.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_item_image.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\item_image.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_draw.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_draw.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_image_note.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_image_note.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_allura.ttf.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\font\\allura.ttf"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_allura.ttf.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\font\\allura.ttf"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_file.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_file.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_text_menu.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_text_menu.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_login.PNG.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\background_login.PNG"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit_text_bg.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\edit_text_bg.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_homepage.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_homepage.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_image.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\add_image.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_log_out.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_log_out.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ava1.jpg.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ava1.jpg"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\font_cormorant_sc_light.ttf.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\font\\cormorant_sc_light.ttf"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_log_out.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_log_out.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_create_file.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_create_file.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_text_menu.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_text_menu.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_microphone_64.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\icons8_microphone_64.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\edit.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_save.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\icon_save.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_recordings.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_recordings.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_brush.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_brush.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_text_menu.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_text_menu.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_bg.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\button_bg.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pencil.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\pencil.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_more_vert.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_image_menu.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-anydpi\\ic_image_menu.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_log_out.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-mdpi\\ic_log_out.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_log_out.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_log_out.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_mic.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_baseline_mic.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\menu\\menu.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fab_google.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\fab_google.png"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_home.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\layout_text_note.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\layout\\text_note.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_record.xml.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\ic_record.xml"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fab_google.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable\\fab_google.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_design.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\button_design.xml"
     },
     {
-        "merged": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_play.png.flat",
-        "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\drawable-hdpi\\ic_play.png"
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background.png.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable-v24\\background.png"
+    },
+    {
+        "merged": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_recordings.xml.flat",
+        "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\drawable\\ic_recordings.xml"
     }
 ]

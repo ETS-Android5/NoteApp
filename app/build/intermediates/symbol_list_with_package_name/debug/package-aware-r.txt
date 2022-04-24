@@ -2570,6 +2570,7 @@ drawable design_snackbar_background
 drawable edit
 drawable edit_text_bg
 drawable eraser
+drawable essay
 drawable fab_facebook
 drawable fab_google
 drawable folder
@@ -2760,7 +2761,6 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id avatar
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2783,7 +2783,6 @@ id btnLogin
 id btnMenupop
 id btnSaveDraw
 id btnUploadFile
-id btn_rp
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2905,7 +2904,8 @@ id gifImageView
 id glide_custom_view_target_tag
 id gobacktologin
 id gone
-id gotoforgotpassword
+id gotoForgotPassword
+id gotologin
 id gotosignup
 id graph
 id graph_wrap
@@ -2915,8 +2915,6 @@ id grouping
 id groups
 id guideline
 id header_title
-id hello
-id hello_username
 id hideable
 id home
 id homeAsUp
@@ -3126,7 +3124,6 @@ id selection_type
 id sharedValueSet
 id sharedValueUnset
 id shortcut
-id showAllImg
 id showCustom
 id showHome
 id showTitle
@@ -3199,6 +3196,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
 id textView5
 id textView6
 id text_input_end_icon

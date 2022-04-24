@@ -30,6 +30,7 @@ public class UploadImageActivity extends AppCompatActivity {
     private DatabaseReference root = FirebaseDatabase.getInstance().getReference("Image");
     private StorageReference storageReference = FirebaseStorage.getInstance().getReference();
     private Uri imageUri;
+    private boolean isClickUp = false;
 
 
     @Override
@@ -39,8 +40,8 @@ public class UploadImageActivity extends AppCompatActivity {
         imageView = findViewById(R.id.img);
         Button btnUploadImg = findViewById(R.id.uploadImg);
         progressBarloadImg = findViewById(R.id.loadImg);
-        Toolbar toolbar = findViewById(R.id.toolBarCreateImage);
-        setSupportActionBar(toolbar);
+      //  Toolbar toolbar = findViewById(R.id.toolBarCreateImage);
+        //setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         imageView.setOnClickListener(view -> {
             Intent galleryIntent = new Intent();
@@ -51,10 +52,16 @@ public class UploadImageActivity extends AppCompatActivity {
         });
         progressBarloadImg.setVisibility(View.INVISIBLE);
         btnUploadImg.setOnClickListener(view -> {
-            if(imageUri != null){
-                uploadImgToFirebase(imageUri);
-            }else {
-                Toast.makeText(this, "Please select image", Toast.LENGTH_SHORT).show();
+            if(isClickUp) {
+                Toast.makeText(this, "Uploading...", Toast.LENGTH_SHORT).show();
+                isClickUp = false;
+            }else{
+                if (imageUri != null) {
+                    uploadImgToFirebase(imageUri);
+                } else {
+                    Toast.makeText(this, "Please select image", Toast.LENGTH_SHORT).show();
+                }
+                isClickUp = true;
             }
         });
     }

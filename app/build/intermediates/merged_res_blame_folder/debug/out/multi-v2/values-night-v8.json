@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
+                {
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "831"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "815"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\f73bb7ba92c974a370fc87fec7127d0d\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -35,25 +54,6 @@
                         "startOffsets": "1452,1527,1638,1727,1828,1935,2042,2141,2244,2332,2456,2558,2660,2776,2878,2992,3120,3236,3358,3494,3614,3748,3868,3980,4195,4312,4436,4566,4688,4826,4960,5076",
                         "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1522,1633,1722,1823,1930,2037,2136,2239,2327,2451,2553,2655,2771,2873,2987,3115,3231,3353,3489,3609,3743,3863,3975,4101,4307,4431,4561,4683,4821,4955,5071,5191"
-                    }
-                },
-                {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "831"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "815"
                     }
                 }
             ]

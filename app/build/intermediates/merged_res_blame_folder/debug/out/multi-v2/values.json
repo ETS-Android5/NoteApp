@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\77c94a50821f3c5cc708c5c5123f4b74\\transformed\\glide-4.13.0\\res\\values\\values.xml",
@@ -18,6 +18,25 @@
                         "startOffsets": "94296",
                         "endColumns": "57",
                         "endOffsets": "94349"
+                    }
+                },
+                {
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "802"
+                    },
+                    "to": {
+                        "startLines": "5602",
+                        "startColumns": "4",
+                        "startOffsets": "385614",
+                        "endLines": "5614",
+                        "endColumns": "12",
+                        "endOffsets": "386300"
                     }
                 },
                 {
@@ -93,39 +112,22 @@
                     }
                 },
                 {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\values\\font_certs.xml",
                     "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "57,214",
-                        "endLines": "4,8",
-                        "endColumns": "12,12",
-                        "endOffsets": "208,416"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,263,1993",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "257,1987,3582"
                     },
                     "to": {
-                        "startLines": "1815,5192",
-                        "startColumns": "4,4",
-                        "startOffsets": "123024,357431",
-                        "endLines": "1817,5195",
-                        "endColumns": "12,12",
-                        "endOffsets": "123173,357630"
-                    }
-                },
-                {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "12,13,1,11,2,4,3,14,5,8,7,10,6,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "586,642,16,540,62,171,111,695,227,383,315,501,267,452",
-                        "endColumns": "55,52,45,45,48,55,59,51,39,68,67,38,47,48",
-                        "endOffsets": "637,690,57,581,106,222,166,742,262,447,378,535,310,496"
-                    },
-                    "to": {
-                        "startLines": "1627,1628,1657,1685,1690,1691,1692,1693,1699,1786,1787,1796,1797,1798",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "101234,101290,103292,106760,107274,107323,107379,107439,108006,120612,120681,121750,121789,121837",
-                        "endColumns": "55,52,45,45,48,55,59,51,39,68,67,38,47,48",
-                        "endOffsets": "101285,101338,103333,106801,107318,107374,107434,107486,108041,120676,120744,121784,121832,121881"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -203,25 +205,6 @@
                     }
                 },
                 {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "802"
-                    },
-                    "to": {
-                        "startLines": "5602",
-                        "startColumns": "4",
-                        "startOffsets": "385614",
-                        "endLines": "5614",
-                        "endColumns": "12",
-                        "endOffsets": "386300"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\0b31491322aea285cbdff3241cc46c1d\\transformed\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -241,7 +224,7 @@
                     }
                 },
                 {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "7,14,17,11,12,16,18,2,3,4,9,5,6,13,8,15",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -255,6 +238,23 @@
                         "startOffsets": "33769,33811,35660,38674,38713,38888,50051,50678,50723,50770,50815,51550,51593,51801,51842,51884",
                         "endColumns": "41,38,44,38,39,43,38,44,46,44,37,42,44,40,41,40",
                         "endOffsets": "33806,33845,35700,38708,38748,38927,50085,50718,50765,50810,50848,51588,51633,51837,51879,51920"
+                    }
+                },
+                {
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "12,13,1,11,2,4,3,14,5,8,7,10,6,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "598,655,17,551,64,175,114,709,232,391,322,511,273,461",
+                        "endColumns": "55,52,45,45,48,55,59,51,39,68,67,38,47,48",
+                        "endOffsets": "649,703,58,592,108,226,169,756,267,455,385,545,316,505"
+                    },
+                    "to": {
+                        "startLines": "1627,1628,1657,1685,1690,1691,1692,1693,1699,1786,1787,1796,1797,1798",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "101234,101290,103292,106760,107274,107323,107379,107439,108006,120612,120681,121750,121789,121837",
+                        "endColumns": "55,52,45,45,48,55,59,51,39,68,67,38,47,48",
+                        "endOffsets": "101285,101338,103333,106801,107318,107374,107434,107486,108041,120676,120744,121784,121832,121881"
                     }
                 },
                 {
@@ -296,7 +296,7 @@
                     }
                 },
                 {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -351,7 +351,7 @@
                     }
                 },
                 {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -370,22 +370,22 @@
                     }
                 },
                 {
-                    "source": "E:\\AllNotes\\NoteApp\\app\\src\\main\\res\\values\\font_certs.xml",
+                    "source": "E:\\AllNotes\\3\\NoteApp\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "57,263,1993",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "257,1987,3582"
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,214",
+                        "endLines": "4,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "208,416"
                     },
                     "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
+                        "startLines": "1815,5192",
+                        "startColumns": "4,4",
+                        "startOffsets": "123024,357431",
+                        "endLines": "1817,5195",
+                        "endColumns": "12,12",
+                        "endOffsets": "123173,357630"
                     }
                 },
                 {

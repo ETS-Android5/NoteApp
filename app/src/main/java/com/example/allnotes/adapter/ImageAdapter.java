@@ -10,8 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.allnotes.ImageModel;
 import com.example.allnotes.R;
-import com.example.allnotes.model.ImageModel;
+//import com.example.allnotes.model.ImageModel;
 
 import java.util.ArrayList;
 

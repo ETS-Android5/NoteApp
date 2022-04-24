@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AllNotes\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "E:\\AllNotes\\3\\NoteApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\f73bb7ba92c974a370fc87fec7127d0d\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",

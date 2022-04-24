@@ -6,141 +6,141 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="27"
-8-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml
+8-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml
+9-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:5:5-67
-11-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:5:22-64
+11-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-12-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:6:5-82
-12-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:6:22-79
+12-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:6:5-82
+12-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:6:22-79
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:7:5-80
-13-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:7:22-77
+13-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:7:5-80
+13-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:8:5-81
-14-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:8:22-78
+14-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:8:5-81
+14-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-15-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:9:5-70
-15-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:9:22-68
+15-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:9:5-70
+15-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:9:22-68
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Admin\.gradle\caches\transforms-3\b02196e6a8969de7272dee25419b3301\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:5-79
 16-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Admin\.gradle\caches\transforms-3\b02196e6a8969de7272dee25419b3301\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:22-76
 17
 18    <application
-18-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:11:5-87:19
+18-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:11:5-87:19
 19        android:allowBackup="true"
-19-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:12:9-35
+19-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:12:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\4a73645463199b9fea916370cbff35e3\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:icon="@mipmap/ic_launcher"
-23-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:13:9-43
+23-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:13:9-43
 24        android:label="@string/app_name"
-24-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:14:9-41
+24-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:14:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:15:9-54
+25-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:15:9-54
 26        android:supportsRtl="true"
-26-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:16:9-35
+26-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:16:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.Material3.Light.NoActionBar" >
-28-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:17:9-65
+28-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:17:9-65
 29        <activity
-29-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:19:9-21:40
+29-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:19:9-21:40
 30            android:name="com.example.allnotes.ImageNoteActivity"
-30-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:20:13-46
+30-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:20:13-46
 31            android:exported="false" />
-31-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:21:13-37
+31-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:21:13-37
 32        <activity
-32-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:22:9-24:40
+32-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:22:9-24:40
 33            android:name="com.example.allnotes.UploadImageActivity"
-33-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:23:13-48
+33-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:23:13-48
 34            android:exported="false" />
-34-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:24:13-37
+34-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:24:13-37
 35        <activity
-35-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:25:9-27:40
+35-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:25:9-27:40
 36            android:name="com.example.allnotes.CreateFileActivity"
-36-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:26:13-47
+36-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:26:13-47
 37            android:exported="false" />
-37-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:27:13-37
+37-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:27:13-37
 38        <activity
-38-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:28:9-30:40
+38-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:28:9-30:40
 39            android:name="com.example.allnotes.FileNoteActivity"
-39-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:29:13-45
+39-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:29:13-45
 40            android:exported="false" />
-40-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:30:13-37
+40-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:30:13-37
 41        <activity
-41-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:31:9-34:75
+41-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:31:9-34:75
 42            android:name="com.example.allnotes.NoteDetailsActivity"
-42-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:32:13-48
+42-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:32:13-48
 43            android:exported="false"
-43-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:33:13-37
+43-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:33:13-37
 44            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-44-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:34:13-72
+44-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:34:13-72
 45        <activity
-45-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:35:9-38:75
+45-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:35:9-38:75
 46            android:name="com.example.allnotes.editTextNoteActivity"
-46-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:36:13-49
+46-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:36:13-49
 47            android:exported="false"
-47-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:37:13-37
+47-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:37:13-37
 48            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-48-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:38:13-72
+48-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:38:13-72
 49        <activity
-49-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:39:9-42:75
+49-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:39:9-42:75
 50            android:name="com.example.allnotes.CreateTextNoteActivity"
-50-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:40:13-51
+50-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:40:13-51
 51            android:exported="false"
-51-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:41:13-37
+51-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:41:13-37
 52            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-52-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:42:13-72
+52-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:42:13-72
 53        <activity
-53-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:43:9-45:40
+53-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:43:9-45:40
 54            android:name="com.example.allnotes.NoteTextActivity"
-54-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:44:13-45
+54-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:44:13-45
 55            android:exported="false" />
-55-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:45:13-37
+55-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:45:13-37
 56        <activity
-56-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:46:9-48:39
+56-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:46:9-48:39
 57            android:name="com.example.allnotes.ContentMain"
-57-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:47:13-40
+57-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:47:13-40
 58            android:exported="true" />
-58-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:48:13-36
+58-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:48:13-36
 59        <activity
-59-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:49:9-51:40
+59-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:49:9-51:40
 60            android:name="com.example.allnotes.ForgotPassword"
-60-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:50:13-43
+60-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:50:13-43
 61            android:exported="false" />
-61-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:51:13-37
+61-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:51:13-37
 62        <activity
-62-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:52:9-54:40
+62-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:52:9-54:40
 63            android:name="com.example.allnotes.SignUp"
-63-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:53:13-35
+63-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:53:13-35
 64            android:exported="false" />
-64-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:54:13-37
+64-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:54:13-37
 65        <activity
-65-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:55:9-57:40
+65-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:55:9-57:40
 66            android:name="com.example.allnotes.DrawActivity"
-66-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:56:13-41
+66-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:56:13-41
 67            android:exported="false" />
-67-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:57:13-37
+67-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:57:13-37
 68        <activity
-68-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:58:9-66:20
+68-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:58:9-66:20
 69            android:name="com.example.allnotes.MainActivity"
-69-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:59:13-41
+69-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:59:13-41
 70            android:exported="true" >
-70-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:60:13-36
+70-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:60:13-36
 71            <intent-filter>
-71-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:61:13-65:29
+71-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:61:13-65:29
 72                <action android:name="android.intent.action.MAIN" />
-72-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:62:17-69
-72-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:62:25-66
+72-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:62:17-69
+72-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:62:25-66
 73
 74                <category android:name="android.intent.category.LAUNCHER" />
-74-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:64:17-77
-74-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:64:27-74
+74-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:64:17-77
+74-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:64:27-74
 75            </intent-filter>
 76        </activity> <!-- <activity -->
 77        <!-- android:name=".MainActivity" -->
@@ -151,27 +151,27 @@
 82        <!-- </intent-filter> -->
 83        <!-- </activity> -->
 84        <meta-data
-84-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:74:9-76:55
+84-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:74:9-76:55
 85            android:name="com.facebook.sdk.ApplicationId"
-85-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:75:13-58
+85-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:75:13-58
 86            android:value="@string/facebook_app_id" />
-86-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:76:13-52
+86-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:76:13-52
 87
 88        <provider
 89            android:name="androidx.core.content.FileProvider"
-89-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:79:13-62
+89-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:79:13-62
 90            android:authorities="com.example.allnotes.provider"
-90-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:78:13-60
+90-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:78:13-60
 91            android:exported="false"
-91-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:80:13-37
+91-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:80:13-37
 92            android:grantUriPermissions="true" >
-92-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:81:13-47
+92-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:81:13-47
 93            <meta-data
-93-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:82:13-84:57
+93-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:82:13-84:57
 94                android:name="android.support.FILE_PROVIDER_PATHS"
-94-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:83:17-67
+94-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:83:17-67
 95                android:resource="@xml/provider_paths" />
-95-->E:\AllNotes\NoteApp\app\src\main\AndroidManifest.xml:84:17-55
+95-->E:\AllNotes\3\NoteApp\app\src\main\AndroidManifest.xml:84:17-55
 96        </provider>
 97
 98        <activity

@@ -31,6 +31,7 @@ drawable button_design
 drawable edit
 drawable edit_text_bg
 drawable eraser
+drawable essay
 drawable fab_facebook
 drawable fab_google
 drawable folder
@@ -74,14 +75,12 @@ font gelasio
 font montserrat
 font montserrat_subrayada
 id EditTextNote
-id avatar
 id blueColor
 id btnChooseFile
 id btnLogin
 id btnMenupop
 id btnSaveDraw
 id btnUploadFile
-id btn_rp
 id cardImage
 id cloud_bgr
 id constraintLayout
@@ -101,11 +100,10 @@ id eraser
 id forgotpassword
 id gifImageView
 id gobacktologin
-id gotoforgotpassword
+id gotoForgotPassword
+id gotologin
 id gotosignup
 id greenColor
-id hello
-id hello_username
 id image
 id imageView10
 id imageView11
@@ -142,7 +140,6 @@ id recyclerview
 id redColor
 id saveEditNote
 id saveTextNote
-id showAllImg
 id signup
 id signupemail
 id signuppassword
@@ -153,6 +150,7 @@ id textNoteCard
 id textView
 id textView2
 id textView3
+id textView4
 id textView5
 id textView6
 id titleTextDetailNote
