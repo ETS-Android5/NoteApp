@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     android:background="@color/purple_200"
     tools:context=".CreateFileActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarCreateFile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titleTextDetailNote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp"
+            android:text="Tiêu đề"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.Toolbar>
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -13,7 +29,7 @@
         android:src="@drawable/folder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/toolBarCreateFile" />
 
     <EditText
         android:id="@+id/editFile"
@@ -36,8 +52,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:backgroundTint="@color/purple_700"
-        android:text="Choose file"
+
+        android:text="Choose File"
 
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,8 +66,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
-        android:backgroundTint="@color/purple_700"
-        android:text="Upload file"
+
+        android:text="Upload File"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/btnChooseFile"
         app:layout_constraintEnd_toEndOf="parent"
