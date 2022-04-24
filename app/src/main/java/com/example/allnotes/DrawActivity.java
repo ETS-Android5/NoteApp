@@ -4,10 +4,15 @@ import static com.example.allnotes.PaintView.colorLits;
 import static com.example.allnotes.PaintView.pathList;
 import static com.example.allnotes.PaintView.current_brush;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.Manifest;
 import android.app.Activity;
@@ -27,11 +32,14 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -40,13 +48,18 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Objects;
 
-public class DrawActivity extends AppCompatActivity {
+public class DrawActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     public static Path path = new Path();
     public static Paint paint_brush = new Paint();
     private Button pencil, eraser,btnSave;
     private ShapeableImageView redColor, yellowColor, greenColor, blueColor;
     private int STORAGE_PERMISSION_CODE = 1;
     private ConstraintLayout paintView;
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
+    Toolbar toolbar;
+    FirebaseAuth mAuth;
+
     Bitmap bitmap;
 
     @Override
@@ -61,7 +74,19 @@ public class DrawActivity extends AppCompatActivity {
         greenColor = findViewById(R.id.greenColor);
         blueColor = findViewById(R.id.blueColor);
         btnSave = findViewById(R.id.btnSaveDraw);
+        mAuth = FirebaseAuth.getInstance();
         paintView = findViewById(R.id.constraintLayout1);
+        drawerLayout = findViewById(R.id.draw_layout_draw);
+        navigationView = findViewById(R.id.nav_view_draw);
+        toolbar = findViewById(R.id.toolbar_draw);
+        navigationView.bringToFront();
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.nav_drawer_open, R.string.nav_drawer_close);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
+
+        navigationView.setNavigationItemSelectedListener(this);
+
+        navigationView.setCheckedItem(R.id.nav_home);
         pencil.setOnClickListener(view -> {
             //Toast.makeText(MainActivity.this, "Clicked", Toast.LENGTH_SHORT).show();
             paint_brush.setColor(Color.BLACK);
@@ -160,11 +185,36 @@ public class DrawActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions((DrawActivity.this), new String[]
                     {Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
         }
-
     }
-
     public void currentColor(int color) {
         current_brush = color;
         path = new Path();
+    }
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.nav_home:
+                startActivity(new Intent(DrawActivity.this, ContentMain.class));
+                break;
+            case R.id.nav_draw:
+                startActivity(new Intent(DrawActivity.this, DrawActivity.class));
+                break;
+            case R.id.nav_image:
+                startActivity(new Intent(DrawActivity.this, ImageNoteActivity.class));
+                break;
+            case R.id.nav_file:
+                Intent intent = new Intent(DrawActivity.this, FileNoteActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.nav_text:
+                startActivity(new Intent(DrawActivity.this,NoteTextActivity.class));
+                break;
+            case R.id.nav_logout:
+                mAuth.signOut();
+                finish();
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+        }
+        drawerLayout.closeDrawer(GravityCompat.START);
+        return true;
     }
 }
