@@ -29,7 +29,7 @@ public class NoteDetailsActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         btnEditTextNoteDetail.setOnClickListener(view -> {
-            Intent intent1 = new Intent(view.getContext(),editTextNoteActivity.class);
+            Intent intent1 = new Intent(view.getContext(), editTextNoteActivity.class);
             intent1.putExtra("title",intent.getStringExtra("title"));
             intent1.putExtra("content",intent.getStringExtra("content"));
             intent1.putExtra("nodeId",intent.getStringExtra("noteId"));
