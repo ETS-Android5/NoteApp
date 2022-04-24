@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         mloginemail=findViewById(R.id.loginemail);
         mloginpassword=findViewById(R.id.loginpassword);
         mlogin=findViewById(R.id.btnLogin);
-        mgotoforgotpassword=findViewById(R.id.gotoforgotpassword);
+        mgotoforgotpassword=findViewById(R.id.gotoForgotPassword);
         mgotosignup=findViewById(R.id.gotosignup);
 //      gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
 //             .requestEmail()
