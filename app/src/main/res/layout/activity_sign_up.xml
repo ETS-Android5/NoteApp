@@ -34,13 +34,14 @@
         android:background="@drawable/bgr_edittext"
         android:ems="10"
         android:fontFamily="@font/montserrat"
-        android:hint="Username"
+        android:hint="Password"
         android:inputType="text"
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textColor="@color/teal_200"
         android:textColorHint="@color/teal_200"
         android:textSize="14sp"
+        app:passwordToggleEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <Button
-        android:id="@+id/btn_rp"
+        android:id="@+id/signup"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="130dp"
@@ -77,23 +78,24 @@
         android:fontFamily="@font/montserrat"
         android:text="Sign-up"
         android:textColor="#707070"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signuppassword" />
 
-    <EditText
-        android:id="@+id/signup"
+    <TextView
+        android:id="@+id/gotologin"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Back"
+        android:textSize="18sp"
         android:textAlignment="center"
         android:textColor="@color/teal_200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_rp" />
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
 </androidx.constraintlayout.widget.ConstraintLayout>
