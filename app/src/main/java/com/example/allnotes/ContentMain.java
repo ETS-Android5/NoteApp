@@ -90,6 +90,10 @@ public class ContentMain extends AppCompatActivity implements NavigationView.OnN
             case R.id.nav_text:
                 startActivity(new Intent(ContentMain.this,NoteTextActivity.class));
                 break;
+            case R.id.nav_logout:
+                mAuth.signOut();
+                finish();
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
