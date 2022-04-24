@@ -1,27 +1,15 @@
 package com.example.allnotes;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.common.api.ApiException;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -69,19 +57,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this,ContentMain.class));
         }
 
-        mgotosignup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,SignUp.class));
-            }
-        });
+        mgotosignup.setOnClickListener(view -> startActivity(new Intent(MainActivity.this,SignUp.class)));
 
-       mgotoforgotpassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, ForgotPassword.class));
-            }
-        });
+       mgotoforgotpassword.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, ForgotPassword.class)));
         mlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,17 +74,14 @@ public class MainActivity extends AppCompatActivity {
                 else
                 {
                     // login the user
-                    firebaseAuth.signInWithEmailAndPassword(mail,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                        @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful())
-                            {
-                                checkMailverfication();
-                            }
-                            else
-                            {
-                                Toast.makeText(getApplicationContext(), "Tài khoản không tồn tại!",Toast.LENGTH_SHORT).show();
-                            }
+                    firebaseAuth.signInWithEmailAndPassword(mail,password).addOnCompleteListener(task -> {
+                        if (task.isSuccessful())
+                        {
+                            checkMailverfication();
+                        }
+                        else
+                        {
+                            Toast.makeText(getApplicationContext(), "Tài khoản không tồn tại!",Toast.LENGTH_SHORT).show();
                         }
                     });
                 }
@@ -114,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
             private void checkMailverfication() {
                 FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-                if (firebaseUser.isEmailVerified()==true)
+                if (firebaseUser.isEmailVerified())
                 {
                     Toast.makeText(getApplicationContext(), "Đã đăng nhập!",Toast.LENGTH_SHORT).show();
                     finish();

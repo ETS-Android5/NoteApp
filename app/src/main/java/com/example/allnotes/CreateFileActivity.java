@@ -59,9 +59,7 @@ public class CreateFileActivity extends AppCompatActivity {
             btnUploadFile.setEnabled(true);
             meditText.setText(data.getDataString()
                     .substring(data.getDataString().lastIndexOf("/")+ 1));
-            btnUploadFile.setOnClickListener(view -> {
-                upLoadPDFFilebase(data.getData());
-            });
+            btnUploadFile.setOnClickListener(view -> upLoadPDFFilebase(data.getData()));
         }
     }
 
@@ -71,36 +69,29 @@ public class CreateFileActivity extends AppCompatActivity {
         progressDialog.show();
         StorageReference reference = storageReference.child(meditText.getText().toString() + ".pdf");
         reference.putFile(data)
-                .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                    @Override
-                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        Task<Uri> uriTask = taskSnapshot.getStorage().getDownloadUrl();
-                        while (!uriTask.isComplete());
-                        Uri uri = uriTask.getResult();
-                        putPDF putPDF = new putPDF(meditText.getText().toString(),uri.toString());
-                        databaseReference.child(databaseReference.push().getKey()).setValue(putPDF);
-                        Toast.makeText(CreateFileActivity.this, "File Upload", Toast.LENGTH_SHORT).show();
-                        progressDialog.show();
-                        startActivity(new Intent(getApplicationContext(),FileNoteActivity.class));
+                .addOnSuccessListener(taskSnapshot -> {
+                    Task<Uri> uriTask = taskSnapshot.getStorage().getDownloadUrl();
+                    while (!uriTask.isComplete());
+                    Uri uri = uriTask.getResult();
+                    putPDF putPDF = new putPDF(meditText.getText().toString(),uri.toString());
+                    databaseReference.child(databaseReference.push().getKey()).setValue(putPDF);
+                    Toast.makeText(CreateFileActivity.this, "File Upload", Toast.LENGTH_SHORT).show();
+                    progressDialog.show();
+                    startActivity(new Intent(getApplicationContext(),FileNoteActivity.class));
 
 
-                    }
-                }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
-                double progress = (100.0* snapshot.getBytesTransferred())/snapshot.getTotalByteCount();
-                progressDialog.setMessage("File Upload"+" "+  (int)progress+ "%");
+                }).addOnProgressListener(snapshot -> {
+                    double progress = (100.0* snapshot.getBytesTransferred())/snapshot.getTotalByteCount();
+                    progressDialog.setMessage("File Upload"+" "+  (int)progress+ "%");
 
 
-            }
-        });
+                });
 
     }
 
     public void retrieveFile(View view) {
         startActivity(new Intent(getApplicationContext(),FileNoteActivity.class));
     }
-
 
     // fix bug
     @Override

@@ -11,20 +11,21 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.util.Objects;
+
 public class NoteDetailsActivity extends AppCompatActivity {
-    private TextView titleOfNoteDetail,contentOfNoteDetail;
     FloatingActionButton btnEditTextNoteDetail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_note_details);
-        titleOfNoteDetail = findViewById(R.id.titleTextDetailNote);
-        contentOfNoteDetail = findViewById(R.id.contentTextNoteDetail);
+        TextView titleOfNoteDetail = findViewById(R.id.titleTextDetailNote);
+        TextView contentOfNoteDetail = findViewById(R.id.contentTextNoteDetail);
         btnEditTextNoteDetail = findViewById(R.id.EditTextNote);
         Toolbar toolbar = findViewById(R.id.toolBarOfNoteTextDetail);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         Intent intent = getIntent();
         btnEditTextNoteDetail.setOnClickListener(view -> {

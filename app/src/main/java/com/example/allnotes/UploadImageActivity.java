@@ -1,9 +1,5 @@
 package com.example.allnotes;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.net.Uri;
@@ -15,18 +11,16 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
 
 public class UploadImageActivity extends AppCompatActivity {
     private ImageView imageView;
-    private Button btnUploadImg,btnShowAllImg;
     private ProgressBar progressBarloadImg;
     private DatabaseReference root = FirebaseDatabase.getInstance().getReference("Image");
     private StorageReference storageReference = FirebaseStorage.getInstance().getReference();
@@ -38,8 +32,7 @@ public class UploadImageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload_image);
         imageView = findViewById(R.id.img);
-        btnUploadImg = findViewById(R.id.uploadImg);
-        btnShowAllImg = findViewById(R.id.showAllImg);
+        Button btnUploadImg = findViewById(R.id.uploadImg);
         progressBarloadImg = findViewById(R.id.loadImg);
         imageView.setOnClickListener(view -> {
             Intent galleryIntent = new Intent();
@@ -61,35 +54,17 @@ public class UploadImageActivity extends AppCompatActivity {
     private void uploadImgToFirebase(Uri uri) {
         StorageReference fileRef = storageReference.child(System.currentTimeMillis() + " . " + getFileExtension(uri));
 
-        fileRef.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                fileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-                    @Override
-                    public void onSuccess(Uri uri) {
-                        ImageModel imageModel = new ImageModel(uri.toString());
-                        String modelId = root.push().getKey();
-                        root.child(modelId).setValue(imageModel);
-                        progressBarloadImg.setVisibility(View.INVISIBLE);
-                        Toast.makeText(UploadImageActivity.this, "Uploaded successfully", Toast.LENGTH_SHORT).show();
-                        imageView.setImageResource(R.drawable.add_image);
-                        startActivity(new Intent(UploadImageActivity.this,ImageNoteActivity.class));
-                    }
-                });
-
-            }
-        }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
-                progressBarloadImg.setVisibility(View.VISIBLE);
-
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-                progressBarloadImg.setVisibility(View.INVISIBLE);
-                Toast.makeText(UploadImageActivity.this, "Uploading Failed !!", Toast.LENGTH_SHORT).show();
-            }
+        fileRef.putFile(uri).addOnSuccessListener(taskSnapshot -> fileRef.getDownloadUrl().addOnSuccessListener(uri1 -> {
+            ImageModel imageModel = new ImageModel(uri1.toString());
+            String modelId = root.push().getKey();
+            root.child(modelId).setValue(imageModel);
+            progressBarloadImg.setVisibility(View.INVISIBLE);
+            Toast.makeText(UploadImageActivity.this, "Uploaded successfully", Toast.LENGTH_SHORT).show();
+            imageView.setImageResource(R.drawable.add_image);
+            startActivity(new Intent(UploadImageActivity.this,ImageNoteActivity.class));
+        })).addOnProgressListener(snapshot -> progressBarloadImg.setVisibility(View.VISIBLE)).addOnFailureListener(e -> {
+            progressBarloadImg.setVisibility(View.INVISIBLE);
+            Toast.makeText(UploadImageActivity.this, "Uploading Failed !!", Toast.LENGTH_SHORT).show();
         });
     }
 

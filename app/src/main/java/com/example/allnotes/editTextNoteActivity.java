@@ -1,21 +1,13 @@
 package com.example.allnotes;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -24,12 +16,12 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class editTextNoteActivity extends AppCompatActivity {
     Intent intent;
     EditText editTextTitleOfNote,editTextContentOfNote;
     FloatingActionButton btnsaveEditText;
-    FirebaseAuth mAuth;
     FirebaseFirestore firestore;
     FirebaseUser firebaseUser;
 
@@ -47,7 +39,7 @@ public class editTextNoteActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolBarOfEditTextNote);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         btnsaveEditText.setOnClickListener(view -> {
             String newTitle = editTextTitleOfNote.getText().toString();
