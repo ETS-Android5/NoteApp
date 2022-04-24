@@ -26,26 +26,34 @@
         app:layout_constraintTop_toTopOf="@+id/imageView5"
         app:srcCompat="@drawable/ic_undraw_taking_notes_re_bnaf" />
 
-    <EditText
-        android:id="@+id/signuppassword"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="270dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/bgr_edittext"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:hint="Password"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:textAlignment="center"
-        android:textColor="@color/teal_200"
+        android:layout_height="wrap_content"
         android:textColorHint="@color/teal_200"
-        android:textSize="14sp"
-        app:passwordToggleEnabled="true"
+
+        app:layout_constraintBottom_toTopOf="@+id/signup"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signupemail" />
+
+        app:layout_constraintTop_toBottomOf="@+id/signupemail"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/teal_200">
+
+        <EditText
+            android:id="@+id/signuppassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:hint="Mật khẩu"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textColorHint="@color/teal_200"
+            android:textSize="16sp"
+            app:passwordToggleEnabled="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
 
     <EditText
         android:id="@+id/signupemail"
@@ -69,20 +77,21 @@
 
     <Button
         android:id="@+id/signup"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="130dp"
-        android:backgroundTint="@color/purple_700"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#19BEEC"
         android:fontFamily="@font/montserrat"
         android:text="Sign-up"
-        android:textColor="#707070"
+        android:textColor="@color/white"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signuppassword" />
+        app:layout_constraintTop_toBottomOf="@+id/signupemail"
+        app:layout_constraintVertical_bias="0.53" />
+
+
 
     <TextView
         android:id="@+id/gotologin"
