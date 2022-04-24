@@ -3,6 +3,7 @@ package com.example.allnotes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -23,6 +24,8 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import java.util.Objects;
+
 public class CreateFileActivity extends AppCompatActivity {
     EditText meditText;
     Button btnUploadFile,btnChooseFile;
@@ -35,6 +38,9 @@ public class CreateFileActivity extends AppCompatActivity {
         meditText = findViewById(R.id.editFile);
         btnUploadFile = findViewById(R.id.btnUploadFile);
         btnChooseFile = findViewById(R.id.btnChooseFile);
+        Toolbar toolbar = findViewById(R.id.toolBarCreateFile);
+        setSupportActionBar(toolbar);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         storageReference = FirebaseStorage.getInstance().getReference();
         databaseReference = FirebaseDatabase.getInstance().getReference("upLoadPDF");
         btnUploadFile.setEnabled(false);
@@ -93,7 +99,14 @@ public class CreateFileActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),FileNoteActivity.class));
     }
 
-    // fix bug
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     @Override
     public void onBackPressed() {
         finish();
