@@ -6,7 +6,7 @@
  - Ghi chú bằng giọng nói
  - Ghi chú bằng Files
  - Tính năng đăng nhập bằng google hoặc sử dụng username, password. Người dùng có thể truy cập bất cứ mọi nơi khi có kết nối mạng và tài khoản ứng dụng.
-## Công nghệ sửa dụng
+## Công nghệ sử dụng
 
 **Thư viện có sẵn Android Studio**
 
